@@ -5,7 +5,7 @@ A starter project to teach Mux users how to directly upload from their machine v
 ## Prerequisites
 - [React](https://reactjs.org/docs/getting-started.html)
 - [Node](https://nodejs.org/en/)
-- [Express]((https://expressjs.com/en/starter/installing.html)
+- [Express](https://expressjs.com/en/starter/installing.html)
 - [Webhooks](https://www.getvero.com/resources/webhooks/) (Optional)
 
 ## Setup
