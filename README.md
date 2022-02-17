@@ -1,6 +1,6 @@
 # Direct Upload Button Starter with Mux
 
-A starter project to teach Mux users how to directly upload from their machine via a file picker / upload button.
+A starter project to teach [Mux](https://mux.com/) users how to directly upload from their machine via a file picker / upload button.
 
 ## Prerequisites
 - [React](https://reactjs.org/docs/getting-started.html)
