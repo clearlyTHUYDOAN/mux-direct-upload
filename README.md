@@ -8,6 +8,16 @@ A starter project to teach Mux users how to directly upload from their machine v
 - [Express](https://expressjs.com/en/starter/installing.html)
 - [Webhooks](https://www.getvero.com/resources/webhooks/) (Optional)
 
+## Credentials and Environment Variables
+
+Create a `.env` file at the root of the project, paste the below, and replace the square brackets with your Mux API credentials.
+
+```
+PORT=[your preferred port other than 3000]
+API_USERNAME=[your mux video api username]
+API_KEY=[your mux video api key]
+```
+
 ## Setup
 ```javascript
 git clone https://github.com/clearlyTHUYDOAN/mux-direct-upload.git
