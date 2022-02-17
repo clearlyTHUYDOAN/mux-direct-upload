@@ -3,10 +3,10 @@
 A starter project to teach Mux users how to directly upload from their machine via a file picker / upload button.
 
 ## Prerequisites
-- React
-- Node
-- Express
-- Webhooks (Optional)
+- React[https://reactjs.org/docs/getting-started.html]
+- Node[https://nodejs.org/en/]
+- Express[https://expressjs.com/en/starter/installing.html]
+- Webhooks[https://www.getvero.com/resources/webhooks/] (Optional)
 
 ## Setup
 ```javascript
