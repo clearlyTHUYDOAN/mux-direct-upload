@@ -23,12 +23,12 @@ npm install
 
 Run the following in separate terminals, from the root:
 
-*Server*
+**Server**
 ```javascript
 npm run server
 ```
 
-*Client*
+**Client**
 ```javascript
 npm run client
 ```
@@ -37,12 +37,12 @@ npm run client
 
 Run the following in separate terminals, from the root:
 
-*Server*
+**Server**
 ```javascript
 npm run final-server
 ```
 
-*Client*
+**Client**
 Go into the client folder's `index.js` file. Uncomment out the import line using `Final-Button.js`.
 
 Then, comment out the active line importing `Button.js`. Next, run the following command:
