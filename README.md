@@ -32,3 +32,21 @@ npm run server
 ```javascript
 npm run client
 ```
+
+## Running the final project
+
+Run the following in separate terminals, from the root:
+
+*Server*
+```javascript
+npm run final-server
+```
+
+*Client*
+Go into the client folder's `index.js` file. Uncomment out the import line using `Final-Button.js`.
+
+Then, comment out the active line importing `Button.js`. Next, run the following command:
+
+```javascript
+npm run client
+```
