@@ -1,6 +1,6 @@
 # Direct Upload Button Starter with Mux
 
-A starter project to help teach Mux users how to direct upload videos from their machine via a file picker / upload button.
+A starter project to teach Mux users how to directly upload from their machine via a file picker / upload button.
 
 ## Prerequisites
 - React
@@ -9,7 +9,7 @@ A starter project to help teach Mux users how to direct upload videos from their
 - Webhooks (Optional)
 
 ## Setup
-```
+```javascript
 git clone https://github.com/clearlyTHUYDOAN/mux-direct-upload.git
 cd mux-direct-upload
 // Install server-side dependencies
@@ -24,11 +24,11 @@ npm install
 Run the following in separate terminals, from the root:
 
 *Server*
-```
+```javascript
 npm run server
 ```
 
 *Client*
-```
+```javascript
 npm run client
 ```
