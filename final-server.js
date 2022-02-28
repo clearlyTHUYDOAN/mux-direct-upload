@@ -42,7 +42,7 @@ app.post('/upload', async (req, res) => {
         "public"
       ],
     } }, options)
-    return res.send(response.data && response.data.data);
+    return res.send(response.data && response.data.data.url);
   } catch (errorRes) {
     return Promise.reject(
       (errorRes.response && errorRes.response.data.error) || errorRes

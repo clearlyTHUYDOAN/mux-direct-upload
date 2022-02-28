@@ -1,16 +1,17 @@
 import React from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import * as UpChunk from '@mux/upchunk';
 import './Button.css';
 
 async function handleUpload(inputRef) {
   try {
-    const response = await axios.post('http://localhost:3001/upload');
+    const response = await fetch('http://localhost:3001/upload', { method: 'POST'});
+    const url = await response.text();
 
-    console.log('👉 Authenticated upload url:', response.data.url);
+    console.log('👉 Authenticated upload url:', url);
   
     const upload = UpChunk.createUpload({
-      endpoint: response.data.url,
+      endpoint: url,
       file: inputRef.files[0],
       chunkSize: 5120, // Uploads the file in ~5mb chunks
     });
