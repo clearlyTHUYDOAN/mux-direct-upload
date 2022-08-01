@@ -27,8 +27,8 @@ const options = {
     Accept: 'application/json',
   },
   auth: {
-    username: process.env.API_USERNAME,
-    password: process.env.API_KEY,
+    username: process.env.MUX_ACCESS_TOKEN_ID,
+    password: process.env.MUX_SECRET_KEY,
   },
   mode: 'cors',
 }
