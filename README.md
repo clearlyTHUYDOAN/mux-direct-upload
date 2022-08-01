@@ -14,8 +14,8 @@ Create a `.env` file at the root of the project, paste the below, and replace th
 
 ```
 PORT=[your preferred port other than 3000]
-API_USERNAME=[your mux video api username]
-API_KEY=[your mux video api key]
+MUX_ACCESS_TOKEN_ID=[your mux access token id]
+MUX_SECRET_KEY=[your mux secret key]
 ```
 
 ## Setup
